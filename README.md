@@ -1,5 +1,4 @@
-# MEANStackRetailApp
-Retail App using the MEAN Stack
+# Retail App using the MEAN Stack
 
 Before bootstrapping all 3 projects it is necessary to install the node packages
 	

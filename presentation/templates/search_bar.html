@@ -1,0 +1,12 @@
+<div class="search-bar-wrapper">
+    <div>
+        <input ng-model="searchText" class="search-bar-input" ng-change="update()" placeholder="which product you are looking for"/>
+    </div>
+    <div class="autocomplete-results" ng-show="results.length > 0">
+        <div class="autocomplete-result" ng-repeat="result in results">
+            <a ng-href="#/product/{{result._id}}">
+                {{result.name}}
+            </a>
+        </div>
+    </div>
+</div>
